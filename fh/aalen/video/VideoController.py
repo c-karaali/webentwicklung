@@ -15,4 +15,4 @@ class VideoController:
         self.app.add_route('/videogenres', self.res, suffix='videogenres')
 
         # A route to a static content directory, e.g. html files
-        self.app.add_static_route('/', '/Users/marcfernandes/PycharmProjects/VideoArchive3/')
+        self.app.add_static_route('/', '/Users/cumi/PycharmProjects/webentwicklung/')
